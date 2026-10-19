@@ -3,7 +3,7 @@ import subprocess
 import sys
 from pathlib import Path
 
-ARIA2C = r"C:\Users\jojin\AppData\Local\FetchDesk\bin\aria2c.exe"
+ARIA2C = "aria2c"
 BASE_DIR = Path(__file__).resolve().parent
 MODELS_DIR = BASE_DIR / "models"
 MODELS_DIR.mkdir(parents=True, exist_ok=True)

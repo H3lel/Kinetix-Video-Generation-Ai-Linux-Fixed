@@ -8,8 +8,7 @@ if [ ! -d "venv" ]; then
 fi
 
 source venv/bin/activate
-pip install -q --upgrade pip
-pip install -q -r requirements.txt
+
 
 export VYDEA_MOCK_MODEL="${VYDEA_MOCK_MODEL:-1}"
 export VYDEA_LOW_VRAM="${VYDEA_LOW_VRAM:-1}"
